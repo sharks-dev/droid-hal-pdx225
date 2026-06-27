@@ -14,7 +14,7 @@
 %define installable_zip 1
 
 # On Android 8+ the system partition is (intended to be) mounted on /.
-%define makefstab_skip_entries /product /system /system_ext /vendor /vendor_dlkm /odm /system_root
+%define makefstab_skip_entries / /product /system /system_ext /vendor /vendor_dlkm /odm /system_root
 
 %define straggler_files \
 /adb_keys\
